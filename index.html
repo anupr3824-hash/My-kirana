@@ -1,0 +1,1561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Kirana Store – Trusted Grocery Store in Halakura, Assam</title>
+<meta name="description" content="My Kirana Store in Halakura, Assam 783335 – Your trusted neighborhood kirana shop for rice, atta, oil, spices, snacks, beverages, dairy, household essentials and daily needs. Fair prices, friendly service. Call 09395018723.">
+<meta name="keywords" content="Kirana Store Halakura, Grocery Shop Halakura Assam, General Store near Halakura, Daily Essentials Halakura, Grocery Store Assam, kirana store near me, Halakura grocery">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="My Kirana Store – Trusted Grocery Store in Halakura, Assam">
+<meta property="og:description" content="Fresh groceries, fair prices, and fast service in Halakura, Assam. Call or WhatsApp us today!">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "GroceryStore",
+  "name": "My Kirana Store",
+  "image": "",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Halakura",
+    "addressLocality": "Halakura",
+    "addressRegion": "Assam",
+    "postalCode": "783335",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 26.15,
+    "longitude": 90.53
+  },
+  "telephone": "+919395018723",
+  "openingHours": "Mo-Su 06:00-21:00",
+  "priceRange": "₹",
+  "paymentAccepted": "Cash, UPI",
+  "description": "Trusted neighborhood kirana store in Halakura, Assam offering fresh groceries, daily essentials, snacks, beverages and household goods at fair prices."
+}
+</script>
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  
+  :root {
+    --green: #16A34A;
+    --green-dark: #15803D;
+    --green-light: #DCFCE7;
+    --orange: #F59E0B;
+    --orange-dark: #D97706;
+    --orange-light: #FEF3C7;
+    --bg: #F8FAFC;
+    --text: #111827;
+    --text-muted: #6B7280;
+    --text-light: #9CA3AF;
+    --white: #FFFFFF;
+    --border: #E5E7EB;
+    --card-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    --card-shadow-hover: 0 12px 40px rgba(22,163,74,0.15);
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Inter', 'Open Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* ========== NAVBAR ========== */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    padding: 20px 0;
+    transition: all 0.35s ease;
+    background: transparent;
+  }
+  nav.scrolled {
+    background: rgba(255,255,255,0.97);
+    backdrop-filter: blur(16px);
+    padding: 12px 0;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+  }
+  .nav-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+  }
+  .logo-icon {
+    width: 40px; height: 40px;
+    background: var(--green);
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px;
+  }
+  .logo-text { font-family: 'Poppins', sans-serif; }
+  .logo-name { font-size: 17px; font-weight: 700; color: var(--text); line-height: 1.1; }
+  .logo-sub { font-size: 10px; color: var(--text-muted); font-weight: 500; letter-spacing: 0.5px; text-transform: uppercase; }
+  nav.scrolled .logo-name { color: var(--text); }
+  nav:not(.scrolled) .logo-name { color: #fff; }
+  nav:not(.scrolled) .logo-sub { color: rgba(255,255,255,0.7); }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+  }
+  .nav-links a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  nav:not(.scrolled) .nav-links a { color: rgba(255,255,255,0.9); }
+  nav.scrolled .nav-links a { color: var(--text); }
+  .nav-links a:hover { color: var(--green) !important; }
+
+  .nav-cta {
+    background: var(--green);
+    color: #fff !important;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+    white-space: nowrap;
+  }
+  .nav-cta:hover { background: var(--green-dark) !important; transform: translateY(-1px); color: #fff !important; }
+
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 4px;
+    background: none; border: none;
+  }
+  .hamburger span {
+    display: block;
+    width: 24px; height: 2px;
+    background: #fff;
+    border-radius: 2px;
+    transition: all 0.3s;
+  }
+  nav.scrolled .hamburger span { background: var(--text); }
+
+  .mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: #fff;
+    z-index: 999;
+    padding: 80px 32px 32px;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .mobile-menu.open { display: flex; }
+  .mobile-menu a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--text);
+    text-decoration: none;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+    transition: color 0.2s;
+  }
+  .mobile-menu a:hover { color: var(--green); }
+  .close-menu {
+    position: absolute;
+    top: 20px; right: 24px;
+    background: none; border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: var(--text);
+  }
+
+  /* ========== OFFER BANNER ========== */
+  .offer-banner {
+    background: var(--orange);
+    color: var(--text);
+    text-align: center;
+    padding: 8px 24px;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    z-index: 999;
+  }
+  .offer-banner span { display: inline-block; animation: marquee-gentle 0.5s ease; }
+  @keyframes marquee-gentle { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: translateY(0); } }
+
+  /* ========== HERO ========== */
+  .hero {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f4c2a 0%, #16A34A 45%, #22c55e 100%);
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 120px 24px 80px;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='30' cy='30' r='1.5' fill='%23ffffff' opacity='0.08'/%3E%3C/svg%3E");
+    background-size: 60px 60px;
+  }
+  .hero-bg-circles {
+    position: absolute;
+    top: -100px; right: -100px;
+    width: 600px; height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, transparent 70%);
+  }
+  .hero-bg-circles-2 {
+    position: absolute;
+    bottom: -150px; left: -150px;
+    width: 500px; height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(245,158,11,0.12) 0%, transparent 70%);
+  }
+  .hero-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    position: relative;
+  }
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.25);
+    color: #fff;
+    padding: 6px 16px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-size: clamp(32px, 5vw, 56px);
+    font-weight: 800;
+    color: #fff;
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+  .hero h1 .highlight { color: var(--orange); }
+  .hero-sub {
+    font-size: 18px;
+    color: rgba(255,255,255,0.85);
+    margin-bottom: 36px;
+    max-width: 480px;
+    line-height: 1.7;
+  }
+  .hero-ctas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 40px;
+  }
+  .btn-primary {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: #fff;
+    color: var(--green);
+    padding: 14px 28px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  }
+  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.3); }
+  .btn-whatsapp {
+    background: #25D366;
+    color: #fff;
+    border: none;
+  }
+  .btn-outline {
+    background: transparent;
+    color: #fff;
+    border: 2px solid rgba(255,255,255,0.5);
+    padding: 12px 24px;
+  }
+  .btn-outline:hover { background: rgba(255,255,255,0.1); border-color: #fff; }
+  .hero-trust {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .hero-trust-item {
+    display: flex; align-items: center; gap: 8px;
+    color: rgba(255,255,255,0.8);
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .hero-trust-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--orange);
+  }
+  .hero-visual {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-end;
+  }
+  .hero-card {
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 20px;
+    padding: 20px 24px;
+    color: #fff;
+    width: 100%;
+    max-width: 340px;
+    transition: transform 0.3s;
+  }
+  .hero-card:hover { transform: translateY(-4px); }
+  .hero-card-label { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: rgba(255,255,255,0.6); margin-bottom: 8px; }
+  .hero-card-title { font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 700; margin-bottom: 4px; }
+  .hero-card-sub { font-size: 13px; color: rgba(255,255,255,0.75); }
+  .hero-stat-row { display: flex; gap: 12px; width: 100%; max-width: 340px; }
+  .hero-stat {
+    flex: 1;
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 16px;
+    padding: 16px;
+    text-align: center;
+    color: #fff;
+  }
+  .hero-stat-num { font-family: 'Poppins', sans-serif; font-size: 26px; font-weight: 800; color: var(--orange); }
+  .hero-stat-label { font-size: 11px; color: rgba(255,255,255,0.7); margin-top: 2px; }
+
+  /* ========== SECTION BASE ========== */
+  section { padding: 80px 24px; }
+  .section-inner { max-width: 1200px; margin: 0 auto; }
+  .section-tag {
+    display: inline-block;
+    background: var(--green-light);
+    color: var(--green-dark);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 50px;
+    margin-bottom: 14px;
+  }
+  .section-tag-orange {
+    background: var(--orange-light);
+    color: var(--orange-dark);
+  }
+  .section-title {
+    font-size: clamp(26px, 4vw, 40px);
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 14px;
+    line-height: 1.2;
+  }
+  .section-sub {
+    font-size: 17px;
+    color: var(--text-muted);
+    max-width: 560px;
+    line-height: 1.7;
+  }
+  .section-header { margin-bottom: 52px; }
+  .section-header.center { text-align: center; }
+  .section-header.center .section-sub { margin: 0 auto; }
+
+  /* ========== ABOUT ========== */
+  .about { background: #fff; }
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+  .about-visual {
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+    background: linear-gradient(135deg, var(--green-light), #bbf7d0);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 360px;
+  }
+  .about-store-illustration {
+    font-size: 100px;
+    text-align: center;
+    animation: float 3s ease-in-out infinite;
+  }
+  @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+  .about-badges {
+    position: absolute;
+    bottom: 20px; left: 20px; right: 20px;
+    display: flex; gap: 10px; flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about-badge {
+    background: #fff;
+    border-radius: 50px;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--green-dark);
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    display: flex; align-items: center; gap: 6px;
+  }
+  .about-content { }
+  .about-content p { color: var(--text-muted); font-size: 16px; line-height: 1.8; margin-bottom: 24px; }
+  .about-features { display: flex; flex-direction: column; gap: 16px; margin-top: 28px; }
+  .about-feature {
+    display: flex; align-items: center; gap: 14px;
+    background: var(--bg);
+    border-radius: 14px;
+    padding: 14px 18px;
+    border: 1px solid var(--border);
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .about-feature:hover { border-color: var(--green); transform: translateX(4px); }
+  .about-feature-icon {
+    width: 40px; height: 40px;
+    background: var(--green-light);
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+  .about-feature-text { }
+  .about-feature-title { font-weight: 600; font-size: 14px; color: var(--text); }
+  .about-feature-sub { font-size: 13px; color: var(--text-muted); }
+
+  /* ========== SPECIAL OFFERS ========== */
+  .offers-section { background: linear-gradient(135deg, #0f4c2a, #16A34A); padding: 60px 24px; }
+  .offers-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+  .offer-card {
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 20px;
+    padding: 28px;
+    color: #fff;
+    transition: transform 0.2s, background 0.2s;
+  }
+  .offer-card:hover { transform: translateY(-4px); background: rgba(255,255,255,0.18); }
+  .offer-card-icon { font-size: 36px; margin-bottom: 14px; }
+  .offer-card-title { font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 700; margin-bottom: 8px; }
+  .offer-card-sub { font-size: 13px; color: rgba(255,255,255,0.75); line-height: 1.6; }
+  .offer-pill {
+    display: inline-block;
+    background: var(--orange);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 50px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  /* ========== PRODUCTS ========== */
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  .product-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 28px 20px 24px;
+    text-align: center;
+    border: 1.5px solid var(--border);
+    transition: all 0.3s ease;
+    cursor: default;
+    position: relative;
+    overflow: hidden;
+  }
+  .product-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, var(--green-light), transparent);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .product-card:hover { transform: translateY(-6px); box-shadow: var(--card-shadow-hover); border-color: var(--green); }
+  .product-card:hover::before { opacity: 1; }
+  .product-card-icon { font-size: 48px; margin-bottom: 14px; position: relative; z-index: 1; display: block; }
+  .product-card-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px; font-weight: 700;
+    color: var(--text);
+    margin-bottom: 6px;
+    position: relative; z-index: 1;
+  }
+  .product-card-desc { font-size: 12px; color: var(--text-muted); position: relative; z-index: 1; line-height: 1.5; }
+  .product-card-tag {
+    display: inline-block;
+    background: var(--green-light);
+    color: var(--green-dark);
+    font-size: 10px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 50px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    position: relative; z-index: 1;
+  }
+
+  /* ========== WHY CHOOSE US ========== */
+  .why { background: var(--bg); }
+  .why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  .why-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 28px;
+    border: 1.5px solid var(--border);
+    transition: all 0.3s;
+    display: flex;
+    gap: 18px;
+    align-items: flex-start;
+  }
+  .why-card:hover { transform: translateY(-4px); box-shadow: var(--card-shadow-hover); border-color: var(--green); }
+  .why-icon {
+    width: 52px; height: 52px;
+    background: var(--green-light);
+    border-radius: 14px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 24px;
+    flex-shrink: 0;
+    transition: background 0.3s;
+  }
+  .why-card:hover .why-icon { background: var(--green); }
+  .why-title { font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+  .why-sub { font-size: 13px; color: var(--text-muted); line-height: 1.6; }
+
+  /* ========== HOURS ========== */
+  .hours { background: #fff; padding: 60px 24px; }
+  .hours-inner { max-width: 800px; margin: 0 auto; text-align: center; }
+  .hours-card {
+    background: var(--bg);
+    border-radius: 24px;
+    padding: 40px;
+    border: 1.5px solid var(--border);
+    margin-top: 36px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  .hours-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+  }
+  .hours-day { font-weight: 600; font-size: 14px; color: var(--text); }
+  .hours-time { font-size: 14px; color: var(--green-dark); font-weight: 600; }
+  .hours-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--green-light);
+    color: var(--green-dark);
+    padding: 6px 16px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .hours-dot { width: 8px; height: 8px; background: var(--green); border-radius: 50%; animation: pulse 1.5s infinite; }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
+
+  /* ========== REVIEWS ========== */
+  .reviews { background: var(--bg); }
+  .reviews-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+  .review-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 28px;
+    border: 1.5px solid var(--border);
+    transition: all 0.3s;
+  }
+  .review-card:hover { transform: translateY(-4px); box-shadow: var(--card-shadow-hover); border-color: var(--green); }
+  .review-stars { font-size: 20px; margin-bottom: 14px; }
+  .review-text { font-size: 15px; color: var(--text); line-height: 1.7; margin-bottom: 18px; font-style: italic; }
+  .review-author { display: flex; align-items: center; gap: 12px; }
+  .review-avatar {
+    width: 42px; height: 42px;
+    background: var(--green-light);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--green-dark);
+    font-family: 'Poppins', sans-serif;
+  }
+  .review-name { font-weight: 600; font-size: 14px; color: var(--text); }
+  .review-location { font-size: 12px; color: var(--text-muted); }
+  .review-overall {
+    background: linear-gradient(135deg, var(--green), var(--green-dark));
+    border-radius: 20px;
+    padding: 36px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .review-rating-big { font-family: 'Poppins', sans-serif; font-size: 64px; font-weight: 800; }
+  .review-rating-label { font-size: 14px; color: rgba(255,255,255,0.8); margin-top: 4px; }
+  .review-platform {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 50px;
+    padding: 6px 16px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 14px;
+  }
+
+  /* ========== FAQ ========== */
+  .faq { background: #fff; padding: 80px 24px; }
+  .faq-inner { max-width: 760px; margin: 0 auto; }
+  .faq-item {
+    border: 1.5px solid var(--border);
+    border-radius: 16px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    transition: border-color 0.2s;
+  }
+  .faq-item.open { border-color: var(--green); }
+  .faq-q {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 20px 24px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    transition: background 0.2s;
+  }
+  .faq-item.open .faq-q { background: var(--green-light); color: var(--green-dark); }
+  .faq-chevron { transition: transform 0.3s; font-size: 18px; flex-shrink: 0; }
+  .faq-item.open .faq-chevron { transform: rotate(180deg); }
+  .faq-a {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+  }
+  .faq-a-inner { padding: 0 24px 20px; font-size: 14px; color: var(--text-muted); line-height: 1.8; }
+
+  /* ========== CONTACT ========== */
+  .contact { background: var(--bg); }
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+  }
+  .contact-info { display: flex; flex-direction: column; gap: 16px; }
+  .contact-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 20px 24px;
+    border: 1.5px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .contact-card:hover { border-color: var(--green); transform: translateX(4px); }
+  .contact-icon {
+    width: 48px; height: 48px;
+    background: var(--green-light);
+    border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 22px;
+    flex-shrink: 0;
+  }
+  .contact-label { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); font-weight: 600; }
+  .contact-value { font-size: 15px; font-weight: 600; color: var(--text); }
+  .contact-link { text-decoration: none; color: var(--green-dark); }
+  .map-container {
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1.5px solid var(--border);
+    height: 280px;
+    margin-top: 16px;
+  }
+  .map-container iframe { width: 100%; height: 100%; border: none; display: block; }
+  .contact-form-wrapper {
+    background: #fff;
+    border-radius: 20px;
+    padding: 36px;
+    border: 1.5px solid var(--border);
+  }
+  .form-title { font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 700; margin-bottom: 24px; }
+  .form-group { margin-bottom: 16px; }
+  .form-label { display: block; font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 6px; }
+  .form-input, .form-textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    transition: border-color 0.2s, box-shadow 0.2s;
+    outline: none;
+  }
+  .form-input:focus, .form-textarea:focus { border-color: var(--green); box-shadow: 0 0 0 3px rgba(22,163,74,0.1); }
+  .form-textarea { min-height: 100px; resize: vertical; }
+  .form-submit {
+    width: 100%;
+    background: var(--green);
+    color: #fff;
+    border: none;
+    padding: 14px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+  }
+  .form-submit:hover { background: var(--green-dark); transform: translateY(-2px); }
+
+  /* ========== FOOTER ========== */
+  footer {
+    background: #0f1f14;
+    color: rgba(255,255,255,0.8);
+    padding: 60px 24px 30px;
+  }
+  .footer-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 48px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin-bottom: 32px;
+  }
+  .footer-brand-name { font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 700; color: #fff; margin: 12px 0 10px; }
+  .footer-brand-desc { font-size: 13px; line-height: 1.7; color: rgba(255,255,255,0.55); }
+  .footer-social { display: flex; gap: 10px; margin-top: 20px; }
+  .footer-social-btn {
+    width: 36px; height: 36px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-decoration: none;
+    color: #fff;
+  }
+  .footer-social-btn:hover { background: var(--green); }
+  .footer-col-title { font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 700; color: #fff; margin-bottom: 18px; text-transform: uppercase; letter-spacing: 1px; }
+  .footer-links { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .footer-links a { text-decoration: none; font-size: 14px; color: rgba(255,255,255,0.55); transition: color 0.2s; }
+  .footer-links a:hover { color: var(--green); }
+  .footer-contact-item { display: flex; gap: 10px; align-items: flex-start; margin-bottom: 14px; }
+  .footer-contact-icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+  .footer-contact-text { font-size: 13px; color: rgba(255,255,255,0.6); line-height: 1.6; }
+  .footer-bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .footer-copy { font-size: 13px; color: rgba(255,255,255,0.4); }
+  .footer-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(22,163,74,0.2);
+    color: #4ade80;
+    padding: 4px 12px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  /* ========== FLOATING WHATSAPP ========== */
+  .fab-whatsapp {
+    position: fixed;
+    bottom: 28px; right: 28px;
+    z-index: 1000;
+    width: 60px; height: 60px;
+    background: #25D366;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 6px 24px rgba(37,211,102,0.45);
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    animation: fab-pop 0.5s 1s both;
+  }
+  @keyframes fab-pop { from { transform: scale(0); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+  .fab-whatsapp:hover { transform: scale(1.1); box-shadow: 0 10px 32px rgba(37,211,102,0.55); }
+  .fab-whatsapp svg { width: 30px; height: 30px; fill: #fff; }
+  .fab-tooltip {
+    position: absolute;
+    right: 68px;
+    background: #fff;
+    color: var(--text);
+    padding: 8px 14px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    opacity: 0;
+    transform: translateX(8px);
+    transition: all 0.2s;
+    pointer-events: none;
+  }
+  .fab-whatsapp:hover .fab-tooltip { opacity: 1; transform: translateX(0); }
+  .fab-tooltip::after {
+    content: '';
+    position: absolute;
+    right: -6px; top: 50%;
+    transform: translateY(-50%);
+    border: 6px solid transparent;
+    border-left-color: #fff;
+    border-right: none;
+  }
+
+  /* ========== ANIMATIONS ========== */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  .fade-in.visible { opacity: 1; transform: translateY(0); }
+  .fade-in-delay-1 { transition-delay: 0.1s; }
+  .fade-in-delay-2 { transition-delay: 0.2s; }
+  .fade-in-delay-3 { transition-delay: 0.3s; }
+
+  /* ========== RESPONSIVE ========== */
+  @media (max-width: 900px) {
+    .hero-inner { grid-template-columns: 1fr; text-align: center; }
+    .hero-visual { align-items: center; }
+    .hero-trust { justify-content: center; }
+    .about-grid { grid-template-columns: 1fr; }
+    .contact-grid { grid-template-columns: 1fr; }
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+    .nav-links { display: none; }
+    .hamburger { display: flex; }
+    .hours-card { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 600px) {
+    section { padding: 60px 20px; }
+    .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+    .footer-bottom { flex-direction: column; text-align: center; }
+    .hero-ctas { justify-content: center; }
+    .hero-stat-row { max-width: 100%; }
+    .hero-card { max-width: 100%; }
+    .contact-form-wrapper { padding: 24px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- OFFER BANNER -->
+<div class="offer-banner">
+  🛒 &nbsp; Now open for WhatsApp orders! Call or message us at <strong>09395018723</strong> &nbsp;•&nbsp; Cash & UPI accepted &nbsp; 🎉
+</div>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">
+      <div class="logo-icon">🏪</div>
+      <div class="logo-text">
+        <div class="logo-name">My Kirana Store</div>
+        <div class="logo-sub">Halakura, Assam</div>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#why-us">Why Us</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="tel:09395018723" class="nav-cta">📞 Call Now</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="close-menu" id="closeMenu">✕</button>
+  <a href="#about" onclick="closeMob()">About Us</a>
+  <a href="#products" onclick="closeMob()">Our Products</a>
+  <a href="#why-us" onclick="closeMob()">Why Choose Us</a>
+  <a href="#reviews" onclick="closeMob()">Reviews</a>
+  <a href="#contact" onclick="closeMob()">Contact</a>
+  <a href="tel:09395018723" style="color: var(--green); margin-top: 8px;">📞 Call: 09395018723</a>
+  <a href="https://wa.me/919395018723" style="color: #25D366;">💬 WhatsApp Order</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg-circles"></div>
+  <div class="hero-bg-circles-2"></div>
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span>⭐</span> Trusted Since Years · Halakura's Favourite Store
+      </div>
+      <h1>Your Trusted <span class="highlight">Kirana Store</span> in Halakura</h1>
+      <p class="hero-sub">Groceries, snacks, household essentials and daily needs — fresh, local, and always available at fair prices.</p>
+      <div class="hero-ctas">
+        <a href="tel:09395018723" class="btn-primary">
+          📞 Call Now
+        </a>
+        <a href="https://wa.me/919395018723?text=Hello!%20I%20want%20to%20order%20from%20My%20Kirana%20Store" class="btn-primary btn-whatsapp">
+          💬 WhatsApp Order
+        </a>
+        <a href="https://maps.google.com/?q=7Q3G%2B937+Halakura+Assam" class="btn-outline btn-primary">
+          📍 Get Directions
+        </a>
+      </div>
+      <div class="hero-trust">
+        <div class="hero-trust-item"><div class="hero-trust-dot"></div> Trusted Local Shop</div>
+        <div class="hero-trust-item"><div class="hero-trust-dot"></div> Cash &amp; UPI Accepted</div>
+        <div class="hero-trust-item"><div class="hero-trust-dot"></div> Daily Fresh Stock</div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card">
+        <div class="hero-card-label">📍 Find Us At</div>
+        <div class="hero-card-title">Halakura, Assam</div>
+        <div class="hero-card-sub">Plus Code: 7Q3G+937 · PIN 783335</div>
+      </div>
+      <div class="hero-stat-row">
+        <div class="hero-stat">
+          <div class="hero-stat-num">200+</div>
+          <div class="hero-stat-label">Products</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">⭐ 5</div>
+          <div class="hero-stat-label">Customer Rating</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">7 Days</div>
+          <div class="hero-stat-label">Open All Week</div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-label">🕐 Store Hours</div>
+        <div class="hero-card-title">Open 6 AM – 9 PM</div>
+        <div class="hero-card-sub">Monday to Sunday · All Days</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPECIAL OFFERS -->
+<section class="offers-section" id="offers">
+  <div class="section-inner">
+    <div class="section-header center" style="margin-bottom: 36px;">
+      <div class="section-tag section-tag-orange">🎁 Special Offers</div>
+      <h2 class="section-title" style="color:#fff;">Why Shop With Us Today</h2>
+    </div>
+    <div class="offers-grid">
+      <div class="offer-card">
+        <div class="offer-pill">Always Available</div>
+        <div class="offer-card-icon">🛒</div>
+        <div class="offer-card-title">Stock Up on Essentials</div>
+        <div class="offer-card-sub">All daily staples always in stock — rice, atta, oil, spices and more.</div>
+      </div>
+      <div class="offer-card">
+        <div class="offer-pill">WhatsApp Orders</div>
+        <div class="offer-card-icon">💬</div>
+        <div class="offer-card-title">Order via WhatsApp</div>
+        <div class="offer-card-sub">Message us your list and we'll keep it ready for pickup. Fast and easy.</div>
+      </div>
+      <div class="offer-card">
+        <div class="offer-pill">UPI & Cash</div>
+        <div class="offer-card-icon">💳</div>
+        <div class="offer-card-title">Multiple Payment Options</div>
+        <div class="offer-card-sub">Pay with cash or UPI — whatever is convenient for you.</div>
+      </div>
+      <div class="offer-card">
+        <div class="offer-pill">Local Prices</div>
+        <div class="offer-card-icon">💰</div>
+        <div class="offer-card-title">Fair & Honest Pricing</div>
+        <div class="offer-card-sub">No hidden costs, no overpricing — just honest local market prices every day.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-visual fade-in">
+        <div class="about-store-illustration">🏪</div>
+        <div class="about-badges">
+          <div class="about-badge">✅ Trusted Store</div>
+          <div class="about-badge">🌿 Fresh Stock</div>
+          <div class="about-badge">📍 Halakura</div>
+          <div class="about-badge">⭐ Top Rated</div>
+        </div>
+      </div>
+      <div class="about-content fade-in fade-in-delay-1">
+        <div class="section-tag">🏡 About Us</div>
+        <h2 class="section-title">Serving Halakura Families with Everyday Essentials</h2>
+        <p>My Kirana Store proudly serves families in Halakura and nearby areas with trusted grocery products, daily essentials, and friendly service. We are your neighborhood's most reliable grocery stop.</p>
+        <p>Whether you need staples, snacks, beverages, or household goods, we keep everything stocked so you don't have to travel far. Our commitment is to provide the best quality products at the most fair prices, every single day.</p>
+        <div class="about-features">
+          <div class="about-feature">
+            <div class="about-feature-icon">🌾</div>
+            <div class="about-feature-text">
+              <div class="about-feature-title">Fresh Daily Stock</div>
+              <div class="about-feature-sub">Restocked regularly to ensure freshness and availability</div>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">🤝</div>
+            <div class="about-feature-text">
+              <div class="about-feature-title">Friendly Neighborhood Service</div>
+              <div class="about-feature-sub">We know our customers by name — that's the kirana way</div>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">📦</div>
+            <div class="about-feature-text">
+              <div class="about-feature-title">200+ Products Available</div>
+              <div class="about-feature-sub">From rice and atta to beverages and personal care items</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products" style="background: var(--bg);">
+  <div class="section-inner">
+    <div class="section-header center fade-in">
+      <div class="section-tag">🛒 Our Products</div>
+      <h2 class="section-title">Everything You Need, All in One Place</h2>
+      <p class="section-sub">A wide range of grocery and household products, always fresh and available at your local kirana store.</p>
+    </div>
+    <div class="products-grid">
+      <div class="product-card fade-in">
+        <span class="product-card-icon">🌾</span>
+        <div class="product-card-name">Rice & Atta</div>
+        <div class="product-card-desc">Premium quality rice, wheat flour and grain staples</div>
+        <div class="product-card-tag">Staples</div>
+      </div>
+      <div class="product-card fade-in fade-in-delay-1">
+        <span class="product-card-icon">🫒</span>
+        <div class="product-card-name">Oil & Spices</div>
+        <div class="product-card-desc">Cooking oils, masalas, turmeric, chili and all spices</div>
+        <div class="product-card-tag">Kitchen Must-Haves</div>
+      </div>
+      <div class="product-card fade-in fade-in-delay-2">
+        <span class="product-card-icon">🍪</span>
+        <div class="product-card-name">Biscuits & Snacks</div>
+        <div class="product-card-desc">Parle, Britannia, chips, namkeen and evening snacks</div>
+        <div class="product-card-tag">Snacks</div>
+      </div>
+      <div class="product-card fade-in fade-in-delay-3">
+        <span class="product-card-icon">🥤</span>
+        <div class="product-card-name">Soft Drinks</div>
+        <div class="product-card-desc">Cold drinks, juices, Frooti, Maaza, Thums Up and more</div>
+        <div class="product-card-tag">Beverages</div>
+      </div>
+      <div class="product-card fade-in">
+        <span class="product-card-icon">☕</span>
+        <div class="product-card-name">Tea & Coffee</div>
+        <div class="product-card-desc">Assam tea, Brooke Bond, Nescafé, instant mixes</div>
+        <div class="product-card-tag">Hot Drinks</div>
+      </div>
+      <div class="product-card fade-in fade-in-delay-1">
+        <span class="product-card-icon">🥛</span>
+        <div class="product-card-name">Dairy Products</div>
+        <div class="product-card-desc">Milk, curd, paneer, butter and dairy essentials</div>
+        <div class="product-card-tag">Fresh Dairy</div>
+      </div>
+      <div class="product-card fade-in fade-in-delay-2">
+        <span class="product-card-icon">🧴</span>
+        <div class="product-card-name">Household Cleaning</div>
+        <div class="product-card-desc">Washing powder, floor cleaner, dishwash and more</div>
+        <div class="product-card-tag">Home Care</div>
+      </div>
+      <div class="product-card fade-in fade-in-delay-3">
+        <span class="product-card-icon">🪥</span>
+        <div class="product-card-name">Personal Care</div>
+        <div class="product-card-desc">Soaps, shampoo, toothpaste, face wash and more</div>
+        <div class="product-card-tag">Personal Care</div>
+      </div>
+      <div class="product-card fade-in">
+        <span class="product-card-icon">📦</span>
+        <div class="product-card-name">Daily Essentials</div>
+        <div class="product-card-desc">Matchboxes, batteries, candles, stationery and more</div>
+        <div class="product-card-tag">Everyday Items</div>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top: 40px;">
+      <a href="https://wa.me/919395018723?text=Hi!%20I%20need%20to%20check%20if%20a%20product%20is%20available." class="btn-primary" style="background: var(--green); color: #fff; display: inline-flex; gap: 8px; align-items: center; text-decoration: none; padding: 14px 32px; border-radius: 50px; font-weight: 700; font-family: 'Poppins', sans-serif; font-size: 15px; transition: transform 0.2s, background 0.2s;">
+        💬 Ask About Any Product on WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="why" id="why-us">
+  <div class="section-inner">
+    <div class="section-header center fade-in">
+      <div class="section-tag">💚 Why Choose Us</div>
+      <h2 class="section-title">The My Kirana Store Difference</h2>
+      <p class="section-sub">We're not just a store — we're your neighborhood's trusted grocery partner.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card fade-in">
+        <div class="why-icon">🏅</div>
+        <div>
+          <div class="why-title">Trusted Local Shop</div>
+          <div class="why-sub">Serving Halakura families for years with honesty, reliability and consistent quality.</div>
+        </div>
+      </div>
+      <div class="why-card fade-in fade-in-delay-1">
+        <div class="why-icon">💰</div>
+        <div>
+          <div class="why-title">Fair Prices, Always</div>
+          <div class="why-sub">No overpricing, no hidden charges. Honest local market rates every day.</div>
+        </div>
+      </div>
+      <div class="why-card fade-in fade-in-delay-2">
+        <div class="why-icon">📦</div>
+        <div>
+          <div class="why-title">Everyday Essentials Stocked</div>
+          <div class="why-sub">From morning atta to evening snacks — everything you need, always in stock.</div>
+        </div>
+      </div>
+      <div class="why-card fade-in">
+        <div class="why-icon">😊</div>
+        <div>
+          <div class="why-title">Friendly Service</div>
+          <div class="why-sub">We treat every customer like family. Quick, warm, and helpful service every visit.</div>
+        </div>
+      </div>
+      <div class="why-card fade-in fade-in-delay-1">
+        <div class="why-icon">💬</div>
+        <div>
+          <div class="why-title">Quick WhatsApp Orders</div>
+          <div class="why-sub">Message your list on WhatsApp and we'll keep your items ready for pickup.</div>
+        </div>
+      </div>
+      <div class="why-card fade-in fade-in-delay-2">
+        <div class="why-icon">📍</div>
+        <div>
+          <div class="why-title">Easy to Find</div>
+          <div class="why-sub">Located in the heart of Halakura. Find us on Google Maps using Plus Code 7Q3G+937.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STORE HOURS -->
+<section class="hours">
+  <div class="hours-inner">
+    <div style="text-align:center;" class="fade-in">
+      <div class="section-tag">🕐 Store Hours</div>
+      <h2 class="section-title">We're Open Every Day</h2>
+      <div class="hours-status">
+        <div class="hours-dot"></div>
+        Open Now — Come Visit Us!
+      </div>
+    </div>
+    <div class="hours-card fade-in">
+      <div class="hours-row"><span class="hours-day">Monday</span><span class="hours-time">6:00 AM – 9:00 PM</span></div>
+      <div class="hours-row"><span class="hours-day">Tuesday</span><span class="hours-time">6:00 AM – 9:00 PM</span></div>
+      <div class="hours-row"><span class="hours-day">Wednesday</span><span class="hours-time">6:00 AM – 9:00 PM</span></div>
+      <div class="hours-row"><span class="hours-day">Thursday</span><span class="hours-time">6:00 AM – 9:00 PM</span></div>
+      <div class="hours-row"><span class="hours-day">Friday</span><span class="hours-time">6:00 AM – 9:00 PM</span></div>
+      <div class="hours-row"><span class="hours-day">Saturday</span><span class="hours-time">6:00 AM – 9:00 PM</span></div>
+      <div class="hours-row"><span class="hours-day">Sunday</span><span class="hours-time">7:00 AM – 8:00 PM</span></div>
+    </div>
+    <p style="text-align:center; margin-top: 20px; font-size: 13px; color: var(--text-muted);">* Hours may vary on public holidays. Call us to confirm: <a href="tel:09395018723" style="color: var(--green); font-weight: 600;">09395018723</a></p>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews" id="reviews">
+  <div class="section-inner">
+    <div class="section-header center fade-in">
+      <div class="section-tag">⭐ Customer Reviews</div>
+      <h2 class="section-title">What Our Customers Say</h2>
+      <p class="section-sub">Real feedback from real neighbors who trust us for their daily essentials.</p>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-overall fade-in">
+        <div class="review-rating-big">5.0</div>
+        <div style="font-size: 28px; margin: 8px 0;">⭐⭐⭐⭐⭐</div>
+        <div class="review-rating-label">Overall Rating on Google</div>
+        <div class="review-platform">📍 Google Maps Verified</div>
+      </div>
+      <div class="review-card fade-in fade-in-delay-1">
+        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+        <div class="review-text">"Cash only available for payments — but the service is quick and the products are always fresh. My go-to daily store in Halakura!"</div>
+        <div class="review-author">
+          <div class="review-avatar">LC</div>
+          <div>
+            <div class="review-name">Local Customer</div>
+            <div class="review-location">Halakura, Assam · Google Review</div>
+          </div>
+        </div>
+      </div>
+      <div class="review-card fade-in fade-in-delay-2">
+        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+        <div class="review-text">"Best kirana store nearby. The uncle here knows exactly what you need. Never had a bad experience. Always well-stocked and very helpful."</div>
+        <div class="review-author">
+          <div class="review-avatar">RA</div>
+          <div>
+            <div class="review-name">Ramesh A.</div>
+            <div class="review-location">Nearby Resident · Regular Customer</div>
+          </div>
+        </div>
+      </div>
+      <div class="review-card fade-in">
+        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+        <div class="review-text">"Fair prices and friendly service. I've been shopping here for years. Trusted store for all daily needs — rice, dal, oil, everything is available here."</div>
+        <div class="review-author">
+          <div class="review-avatar">PD</div>
+          <div>
+            <div class="review-name">Priya D.</div>
+            <div class="review-location">Halakura Village · Loyal Customer</div>
+          </div>
+        </div>
+      </div>
+      <div class="review-card fade-in fade-in-delay-1">
+        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+        <div class="review-text">"Convenient location, great stock. I love that I can WhatsApp my order and pick it up. The owner is very responsive and helpful."</div>
+        <div class="review-author">
+          <div class="review-avatar">SM</div>
+          <div>
+            <div class="review-name">Sanjay M.</div>
+            <div class="review-location">Halakura · Happy Customer</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p style="text-align:center; margin-top: 28px; font-size: 13px; color: var(--text-muted);">💳 Payment Note: Cash accepted. UPI (PhonePe / GPay) also accepted. <strong>Ask owner for latest payment options.</strong></p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="faq-inner">
+    <div class="section-header center fade-in">
+      <div class="section-tag">❓ FAQs</div>
+      <h2 class="section-title">Common Questions</h2>
+    </div>
+    <div class="faq-item" onclick="toggleFaq(this)">
+      <button class="faq-q">Where is My Kirana Store located? <span class="faq-chevron">▼</span></button>
+      <div class="faq-a"><div class="faq-a-inner">We are located in Halakura, Assam – PIN 783335. You can find us on Google Maps using Plus Code: 7Q3G+937. Call us at 09395018723 for directions.</div></div>
+    </div>
+    <div class="faq-item" onclick="toggleFaq(this)">
+      <button class="faq-q">What are your opening hours? <span class="faq-chevron">▼</span></button>
+      <div class="faq-a"><div class="faq-a-inner">We are open Monday to Saturday from 6:00 AM to 9:00 PM, and Sunday from 7:00 AM to 8:00 PM. Hours may vary on public holidays — call us to confirm.</div></div>
+    </div>
+    <div class="faq-item" onclick="toggleFaq(this)">
+      <button class="faq-q">Do you accept UPI payments? <span class="faq-chevron">▼</span></button>
+      <div class="faq-a"><div class="faq-a-inner">We accept Cash payments. UPI is also available — please ask when you visit or call us to confirm the latest payment options available at the store.</div></div>
+    </div>
+    <div class="faq-item" onclick="toggleFaq(this)">
+      <button class="faq-q">Can I order on WhatsApp? <span class="faq-chevron">▼</span></button>
+      <div class="faq-a"><div class="faq-a-inner">Yes! Simply WhatsApp us your list at 09395018723. We'll confirm availability and keep your items ready for pickup. It's quick, easy and convenient.</div></div>
+    </div>
+    <div class="faq-item" onclick="toggleFaq(this)">
+      <button class="faq-q">What products do you sell? <span class="faq-chevron">▼</span></button>
+      <div class="faq-a"><div class="faq-a-inner">We stock 200+ products including rice, atta, cooking oil, spices, biscuits, snacks, cold drinks, tea, coffee, dairy products, household cleaning items, personal care products and all daily essentials.</div></div>
+    </div>
+    <div class="faq-item" onclick="toggleFaq(this)">
+      <button class="faq-q">Do you offer home delivery? <span class="faq-chevron">▼</span></button>
+      <div class="faq-a"><div class="faq-a-inner">Currently we offer a convenient WhatsApp order and pickup service. You can message us your list and collect your order from the store. Contact us to know about delivery options in your area.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="section-inner">
+    <div class="section-header center fade-in">
+      <div class="section-tag">📞 Contact Us</div>
+      <h2 class="section-title">Get in Touch with Us</h2>
+      <p class="section-sub">Visit us, call us, or message us on WhatsApp. We're always here to help.</p>
+    </div>
+    <div class="contact-grid">
+      <div>
+        <div class="contact-info">
+          <a href="tel:09395018723" class="contact-card" style="text-decoration:none; color: inherit;">
+            <div class="contact-icon">📞</div>
+            <div>
+              <div class="contact-label">Phone Number</div>
+              <div class="contact-value contact-link">09395018723</div>
+            </div>
+          </a>
+          <a href="https://wa.me/919395018723" class="contact-card" style="text-decoration:none; color: inherit;">
+            <div class="contact-icon">💬</div>
+            <div>
+              <div class="contact-label">WhatsApp Order</div>
+              <div class="contact-value" style="color: #25D366;">Message us on WhatsApp</div>
+            </div>
+          </a>
+          <div class="contact-card">
+            <div class="contact-icon">📍</div>
+            <div>
+              <div class="contact-label">Store Address</div>
+              <div class="contact-value">Halakura, Assam 783335</div>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">🗺️</div>
+            <div>
+              <div class="contact-label">Google Plus Code</div>
+              <div class="contact-value">7Q3G+937 Halakura</div>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">🕐</div>
+            <div>
+              <div class="contact-label">Working Hours</div>
+              <div class="contact-value">Mon–Sat: 6AM–9PM · Sun: 7AM–8PM</div>
+            </div>
+          </div>
+        </div>
+        <div class="map-container fade-in" style="margin-top: 20px;">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.0!2d90.53!3d26.15!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375c5d3a97e3a7c9%3A0x1!2sHalakura%2C%20Assam%20783335!5e0!3m2!1sen!2sin!4v1234567890"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="My Kirana Store Location - Halakura, Assam">
+          </iframe>
+        </div>
+        <div style="text-align: center; margin-top: 16px;">
+          <a href="https://maps.google.com/?q=7Q3G%2B937+Halakura+Assam" class="btn-primary" style="background: var(--green); color: #fff; display: inline-flex; gap: 8px; align-items: center; text-decoration: none; padding: 12px 24px; border-radius: 50px; font-weight: 700; font-family: 'Poppins', sans-serif; font-size: 14px; transition: transform 0.2s, background 0.2s;">
+            📍 Open in Google Maps
+          </a>
+        </div>
+      </div>
+      <div class="contact-form-wrapper fade-in">
+        <div class="form-title">Send Us a Message</div>
+        <div class="form-group">
+          <label class="form-label">Your Name</label>
+          <input type="text" class="form-input" placeholder="e.g. Ramesh Kumar" id="f-name">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Phone Number</label>
+          <input type="tel" class="form-input" placeholder="Your mobile number" id="f-phone">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Message / Product Inquiry</label>
+          <textarea class="form-textarea" placeholder="Tell us what you need or ask us anything..." id="f-msg"></textarea>
+        </div>
+        <button class="form-submit" onclick="sendWhatsApp()">📲 Send via WhatsApp</button>
+        <p style="text-align:center; font-size: 12px; color: var(--text-muted); margin-top: 12px;">Your message will be sent directly to our WhatsApp</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div style="display:flex; align-items:center; gap:10px;">
+        <div style="width:40px; height:40px; background:var(--green); border-radius:10px; display:flex; align-items:center; justify-content:center; font-size:20px;">🏪</div>
+      </div>
+      <div class="footer-brand-name">My Kirana Store</div>
+      <div class="footer-brand-desc">Your trusted neighborhood grocery store in Halakura, Assam. Serving families with fresh products, fair prices, and genuine care since years.</div>
+      <div class="footer-social">
+        <a href="https://wa.me/919395018723" class="footer-social-btn" title="WhatsApp">💬</a>
+        <a href="tel:09395018723" class="footer-social-btn" title="Call Us">📞</a>
+        <a href="https://maps.google.com/?q=7Q3G%2B937+Halakura+Assam" class="footer-social-btn" title="Google Maps">📍</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Quick Links</div>
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#why-us">Why Choose Us</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Products</div>
+      <ul class="footer-links">
+        <li><a href="#products">Rice & Atta</a></li>
+        <li><a href="#products">Oil & Spices</a></li>
+        <li><a href="#products">Biscuits & Snacks</a></li>
+        <li><a href="#products">Dairy Products</a></li>
+        <li><a href="#products">Beverages</a></li>
+        <li><a href="#products">Household Items</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Contact Info</div>
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon">📍</span>
+        <span class="footer-contact-text">Halakura, Assam 783335, India<br>Plus Code: 7Q3G+937</span>
+      </div>
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon">📞</span>
+        <span class="footer-contact-text"><a href="tel:09395018723" style="color: #4ade80; text-decoration:none;">09395018723</a></span>
+      </div>
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon">🕐</span>
+        <span class="footer-contact-text">Mon–Sat: 6:00 AM – 9:00 PM<br>Sunday: 7:00 AM – 8:00 PM</span>
+      </div>
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon">💳</span>
+        <span class="footer-contact-text">Cash & UPI Accepted</span>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-copy">© 2025 My Kirana Store, Halakura, Assam. All rights reserved.</div>
+    <div class="footer-badge">🌿 Proudly Local · Made in Assam</div>
+  </div>
+</footer>
+
+<!-- FLOATING WHATSAPP BUTTON -->
+<a href="https://wa.me/919395018723?text=Hello!%20I%20want%20to%20order%20from%20My%20Kirana%20Store%20in%20Halakura." class="fab-whatsapp" title="Order on WhatsApp">
+  <div class="fab-tooltip">Order on WhatsApp</div>
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+  </svg>
+</a>
+
+<script>
+  // Navbar scroll
+  const nav = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 50);
+  });
+
+  // Mobile menu
+  document.getElementById('hamburger').onclick = () => document.getElementById('mobileMenu').classList.add('open');
+  document.getElementById('closeMenu').onclick = closeMob;
+  function closeMob() { document.getElementById('mobileMenu').classList.remove('open'); }
+
+  // Fade-in on scroll
+  const fadeEls = document.querySelectorAll('.fade-in');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+  fadeEls.forEach(el => observer.observe(el));
+
+  // FAQ toggle
+  function toggleFaq(item) {
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(f => {
+      f.classList.remove('open');
+      f.querySelector('.faq-a').style.maxHeight = '0';
+    });
+    if (!isOpen) {
+      item.classList.add('open');
+      item.querySelector('.faq-a').style.maxHeight = item.querySelector('.faq-a-inner').offsetHeight + 'px';
+    }
+  }
+
+  // Contact form WhatsApp send
+  function sendWhatsApp() {
+    const name = document.getElementById('f-name').value.trim();
+    const phone = document.getElementById('f-phone').value.trim();
+    const msg = document.getElementById('f-msg').value.trim();
+    if (!msg) { alert('Please write a message first.'); return; }
+    const text = `Hello My Kirana Store! 🙏\n\nName: ${name || 'N/A'}\nPhone: ${phone || 'N/A'}\nMessage: ${msg}`;
+    window.open(`https://wa.me/919395018723?text=${encodeURIComponent(text)}`, '_blank');
+  }
+
+  // Smooth nav scroll — offset for fixed header
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const href = a.getAttribute('href');
+      if (href === '#') return;
+      const target = document.querySelector(href);
+      if (target) {
+        e.preventDefault();
+        const offset = 80;
+        window.scrollTo({ top: target.offsetTop - offset, behavior: 'smooth' });
+      }
+    });
+  });
+</script>
+</body>
+  </html>
